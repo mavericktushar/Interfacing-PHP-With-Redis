@@ -1,0 +1,42 @@
+body
+{
+	background-image: url(../images/polka_dots.gif);
+}
+
+.stripy-table
+{
+	border-collapse: collapse;
+	border: solid 1px #DDDDDD;
+	top: 10%;
+	left: 10%;
+	position: absolute;
+}
+
+th
+{
+	background-image: url(../images/table_header.jpg);
+	background-repeat: repeat-x;
+	padding: 8px 15px 3px 3px;
+	text-align: left;
+	border: solid 1px #385708;
+	border-bottom: solid 4px #2A4106;
+	color: #FFFFFF;
+	font-size: 150%;
+	background-color: #385708;
+}
+
+td
+{
+	padding: 6px 15px 3px 3px;
+	font-size: 150%;
+}
+
+tr
+{
+	background-color: #DDDDDD;
+}
+
+tr.alt
+{
+	background-color: #EEEEEE;
+}
